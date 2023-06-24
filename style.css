@@ -1,0 +1,82 @@
+header{
+	background: url('images/background2.jpg');
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+header .logo img{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+header h1{
+	color: white;
+	font-size: 4em;
+	padding-top: 120px;
+	padding-left: 100px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+header h2{
+	color: white;
+	font-size: 2em;
+	padding-top: 30px;
+	padding-left: 100px;
+}
+section{
+    display: flex;
+  
+	padding-top: 50px;
+	text-align: center;
+}
+
+section.description{
+    display: block;
+	text-align: left;
+	padding-left: 100px;
+	background: #fafafa;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 50px;
+}
+section.description img{
+	width: 100%;
+}
+section.items img{
+	border: solid 1px #1b62cd;
+	padding: 25px;
+	border-radius: 50%;
+	width: 100px;
+	margin-bottom: 20px
+}
+section.items h3{
+	text-transform: uppercase;
+}
+section.items p{
+	font-size: 0.9em
+}
+section.contact{
+    display: block;
+	text-align: center;
+	padding-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 50px;
+	background: url('images/background-contact.png');
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+section.contact h3{
+	color: #FFF;
+}
+section.contact input, textarea{
+	width: 400px;
+	text-align: left;
+	padding: 10px;
+	margin: 10px
+}
+section.contact textarea{
+	height: 150px
+}
